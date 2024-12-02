@@ -1,0 +1,112 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dennis Ivanov</title>
+	<link href="{% static '/css/style.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/bimaloness.jpeg' %}" >
+					<hr>
+					<h4>{{ name }}</h4>
+					<p>{{ description }}</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My First Job as a Developer</h4>
+					<hr>
+				<p>My first job as a developer was at AIIHTS Institute, where I worked for six months as both a **UI** and **Backend Developer**. </p>
+                 <p>    I designed user-friendly interfaces using **HTML, CSS, JavaScript**, and **React**, ensuring a smooth, responsive experience across devices. </p>
+                   <p>   On the backend, I developed web applications with **Python** and **Django**, focusing on database management, authentication, and API integrations. </p>
+                    <p>  This role gave me hands-on experience in full-stack development and allowed me to collaborate with a team, sharpening my problem-solving and technical skills. </p>
+                    It was a valuable stepping stone in my career as a developer.
+
+                </p>
+
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+						<li><img class="social" src="{% static 'images/youtube.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>During my 6-month experience at AIIHTS Institute, I worked as both a UI and Backend Developer. </p>
+                    <p> I was responsible for designing user-friendly interfaces using HTML, CSS, JavaScript, and React, ensuring an engaging and responsive user experience. </p>
+                      <p> On the backend, I developed dynamic web applications with Python and Django, handling database interactions, authentication, and API integrations.  </p>
+                  <p> This role allowed me to collaborate closely with a team, enhancing both my technical and problem-solving skills. </p>
+                
+                </div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Python, Django, HTML/CSS, JavaScript, React, MongoDB, MySQL and APIs such as google maps, JavaScript charts and a whole bunch more I can’t possibly mention in one sentence! ;)</p>
+					<p>PS: Working on Node JS, Mongo DB and Machine Learning.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+                <hr>
+                <p> I learned both frontend and backend development through a combination of YouTube tutorials and formal education at an institute. </p>
+
+                <p> For the frontend, I started with the basics of **HTML** and **CSS**, which gave me the foundation for building web pages and styling them.</p><p> I then progressed to **JavaScript** to add interactivity to my sites, learning how to handle events, manipulate DOM elements, and work with APIs.</p><p>
+                     To enhance my skills, I explored **React**, a powerful JavaScript library for building user interfaces. </p>
+                     <p> I also learned **Bootstrap**, which allowed me to quickly create responsive and visually appealing layouts without having to write custom CSS. </p>
+                    
+                     <p>  For the backend, I focused on **Python** due to its simplicity and versatility. </p> 
+                     <p>Through tutorials and coursework, I learned how to build web applications using **Django**, a robust Python web framework.</p>
+                     <p> I became proficient in setting up models, views, templates, and handling databases, as well as understanding the flow of HTTP requests. </p>
+                     <p> The combination of YouTube resources for practical learning and formal institute training helped me develop a strong understanding of both frontend and backend development. </p>
+    	
+                </div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>A short-term goal for a developer in a company typically focuses on immediate growth, skill development, and contributing to team success within a few months to a year. </p> 
+                <p> Common goals include completing specific projects or features. For example, a developer might aim to finish a user authentication module by the end of the quarter.</p> 
+                <p>Another goal could be mastering a new technology or framework, such as becoming proficient in Django or React within the next 3 months to contribute to upcoming projects.
+                </p>
+                  <p>  Improving code quality is another essential short-term goal. Developers can focus on refactoring code, optimizing performance, and enhancing maintainability, for example, by improving 5 code modules over the next 2 months. 
+                  </p>Developers might also set goals to contribute to team collaboration, like actively participating in code reviews or sprint planning meetings.
+                    
+                <p>   Meeting deadlines and achieving sprint goals are crucial for both individual and team success, while improving debugging and testing skills can help address critical issues more efficiently. Expanding product knowledge and strengthening version control practices are also valuable goals. Lastly, familiarizing oneself with Agile methodologies can enhance workflow and team collaboration. 
+                    
+                 <p>   Overall, short-term goals are aimed at improving technical skills, teamwork, and delivering value to the company. </p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
